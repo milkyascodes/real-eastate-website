@@ -10,7 +10,8 @@ const Banner = ({ purpose, title1, title2, desc1, desc2, buttonText, linkName, i
             <Text fontSize='3xl' fontWeight='bold'>{title1} <br />{title2}</Text>
             <Text py='3' fontSize='lg' color='gray.5\700' fontWeight='bold'>{desc1}</Text>
             <Text py='3' fontSize='lg' color='gray.5\700' fontWeight='bold'>{desc2}</Text>
-            <Button fontSize='xl'>
+
+            <Button size='lg' colorScheme='green' mt='24px'>
                 <Link href={linkName}>{buttonText}</Link>
             </Button>
         </Box>
